@@ -1,0 +1,34 @@
+
+
+@import '../node_modules/bootstrap/scss//bootstrap.scss';
+body{
+    overflow:hidden;
+}
+.hero{
+    text-align: center;
+    font-size: smaller;
+    padding: 10px 5px;
+    color: white;
+    position: sticky;
+    .top{
+        top:0;
+    }
+    .bottom{
+        bottom: 0;
+    }
+    z-index: 1;
+    background-color: #124565;
+}
+.players{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.scroll{
+    height: 86vh;
+  
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
